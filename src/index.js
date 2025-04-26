@@ -1,5 +1,5 @@
-function foo(bar) {
-  return "hello";
+export function sayHelloTo(name) {
+  return `Hello ${name}`;
 }
 
-console.log(foo(3));
+console.log(sayHelloTo("Seamus"));
